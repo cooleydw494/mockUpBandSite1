@@ -1,0 +1,54 @@
+/*####### MAIN DIV ########*/
+#main {
+    padding-bottom: 50px; /*KEEP CONTENT ABOVE FIXED FOOTER*/
+    font-family: monospace, serif, sans-serif;
+    font-weight: -300;
+}
+#main article {
+    text-shadow: 0 0 25px rgba(255, 251, 241, 0.33);
+}
+#main article h1{
+    font-family: 'Bahiana', serif, sans-serif;
+    font-size: 2em;
+}
+
+/*##### GENERAL IFRAME ########*/
+iframe {
+    box-shadow: 1px 1px 100px rgba(245, 250, 185, 0.38), 5px 5px 30px rgba(255, 97, 224, 0.24), -1px -1px 35px rgba(118, 62, 149, 0.65);
+}
+/*##### MAIN VIDEO IFRAME ######*/
+#mainVideoDiv iframe {
+    margin: 1em auto;
+    margin-top: 75px;
+    border: 5px solid rgba(0, 0, 0, 0.38);
+    border-radius: 2% 3%;
+}
+/*######## MAIN MUSIC IFRAME ######*/
+#mainMusicDiv {
+    margin: 1em auto;
+}
+#mainMusicDiv iframe {
+    border: 3px solid rgba(255, 119, 47, 0.57);
+    border-radius: 10px;
+}
+
+
+/*###### ABOUT ARTICLE #######*/
+article .col-8 {
+    margin: 1em auto; /*ALIGN ARTICLE*/
+    text-align: center;
+}
+
+
+/*######### MEDIA QUERIES ###############*/
+@media screen and (max-width: 680px) {
+    /*#######CENTER VIDEO WITH RESPONSIVE WIDTH*/
+    #mainVideoDiv {
+        width: 95%;
+        margin: auto;
+    }
+    #mainMusicDiv {
+        width: 95%;
+        margin: auto;
+    }
+}
